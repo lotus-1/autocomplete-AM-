@@ -1,0 +1,24 @@
+{
+  "name": "autocomplete-am-",
+  "version": "1.0.0",
+  "description": "Autocomplete website to select words from list suggestion.",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape tests.js | tap-spec",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lotus-1/autocomplete-AM-.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lotus-1/autocomplete-AM-/issues"
+  },
+  "homepage": "https://github.com/lotus-1/autocomplete-AM-#readme",
+  "devDependencies": {
+    "tap-spec": "^5.0.0",
+    "tape": "^4.10.1"
+  }
+}
