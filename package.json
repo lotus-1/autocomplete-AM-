@@ -4,8 +4,7 @@
   "description": "Autocomplete website to select words from list suggestion.",
   "main": "index.js",
   "scripts": {
-    "test": "tape tests.js | tap-spec",
-    "start": "node server.js"
+    "test": "tape src/tests.js | tap-spec"
   },
   "repository": {
     "type": "git",
