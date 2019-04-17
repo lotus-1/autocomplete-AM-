@@ -25,6 +25,7 @@ const handlerPublic = (request, response, url) => {
         html: 'text/html',
         js: 'application/javascript',
         css: 'text/css',
+        png: 'image/png'
     };
     const filePath = path.join(__dirname, '..', url);
     fs.readFile(filePath, (error, file) => {
