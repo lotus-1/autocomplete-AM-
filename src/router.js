@@ -1,7 +1,7 @@
 const {
   handlerHome,
   handlerSearch,
-} = require ('./handles.js')
+} = require ('./handler')
 
 const router = (request, response) => {
   const endpoint = request.url;
@@ -15,3 +15,5 @@ if (endpoint === "/") {
 
 
 };
+
+module.exports = router;

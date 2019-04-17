@@ -19,5 +19,8 @@
   "devDependencies": {
     "tap-spec": "^5.0.0",
     "tape": "^4.10.1"
+  },
+  "dependencies": {
+    "query-string": "^6.4.2"
   }
 }
