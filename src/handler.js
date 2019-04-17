@@ -2,9 +2,8 @@ const fs = require('fs');
 const path = require('path');
 
 
-const handler = (request, response) => {
+const handlerHome = (request, response) => {
   const endpoint = request.url;
-  if (endpoint === "/") {
     response.writeHead(200, { 'content-Type' : 'text/html'});
   const filepath = path.join(__dirname, '..', 'public', 'index.html')
   fs.readFile(filepath, (error, file) => {
@@ -19,10 +18,21 @@ const handler = (request, response) => {
   });
 }
 };
-//
-// const handlePublic = (request, response, url) => {
-//   const
-// }
+
+const handlerSearch = (request, response) => {
+  const endponit = request.url;
+  response.writeHead(200, { 'content-Type' : 'text/html'});
+  const filepath = path.join(__dirname, '..', 'public', 'word.txt')
+  fs.readFile(filepath, (error, file) => {
+    if (error) {
+      console.log(error);
+      response.writeHead(404, {'Content-Type': 'text/plain'});
+      response.end('404 - FILE NOT FOUND');
+      return;
+    }
+
+}
+
 
 
 
