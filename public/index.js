@@ -5,5 +5,17 @@
 //     return callback(err, ac.words);
 //   });
 // }
-//
-// function
+document.getElementById("search").addEventListener("keyup", function(event){
+  event.preventDefault();
+
+fetch("/search")
+.then(function(response) {
+    return response.json();
+  })
+.then(function(data) {
+  console.log(data)
+})
+.catch(function(error) {
+  console.log(error);
+})
+});
