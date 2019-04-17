@@ -1,5 +1,3 @@
-animals.txt : 
-
 Canidae
 Felidae
 Cat
