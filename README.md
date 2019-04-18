@@ -13,7 +13,7 @@ And it will update what the user is going to type.
 
 
 
-![picture](https://web.whatsapp.com/ceab98c9-10fb-4a9e-922b-c7823d729023)
+![img](./assets/archtchtre.jpeg)
 
 
 ### Technologies Used :
