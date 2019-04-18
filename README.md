@@ -5,7 +5,6 @@ Autocomplete website to select words from list suggestion.
 Tursday, 17th of April 2019    
 week-4, 4th project
 
-link: http://home/aman/week-4/autocomplete-AM-/public/index.html
 
 ### Discription :
 We bulid a simple web autocomplete, Which make it easier for the user to search for his favorite animal.
