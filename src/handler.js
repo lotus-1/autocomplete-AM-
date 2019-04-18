@@ -20,7 +20,6 @@ const handlerHome = (request, response) => {
     response.end(file);
   });
 };
-
 const handlerPublic = (request, response) => {
   const url = request.url;
   const extension = url.split(".")[1];
