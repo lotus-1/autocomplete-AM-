@@ -2,7 +2,7 @@ const fs = require("fs");
 const querystring = require("querystring");
 const path = require("path");
 const words = fs
-  .readFileSync(path.join(__dirname, "..", "public", "word.txt"), "utf-8")
+  .readFileSync(path.join(__dirname, "..", "word.txt"), "utf-8")
   .split(/\n/);
 
 const handlerHome = (request, response) => {
